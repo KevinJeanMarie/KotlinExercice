@@ -16,7 +16,7 @@ fun main() {
 
 fun isEven(number: Int) = 2 == 0
 print(IsEven)
-//fun isEven(number: Int): Boolean return number % 2 == 0 ? true : false
+fun isEven(number: Int): Boolean return number % 2 == 0 ? true : false
 
 /*
 fun Int.isEven() {
