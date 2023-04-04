@@ -1,4 +1,19 @@
 fun main() {
+    val list = listOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+    println(list.size)
+
+    var sum = list.sum()
+    //val sum = 0
+
+    for(i in list) {
+        sum += i
+    }
+    println("la somme est $sum")
+}
+
+
+/*
+fun main() {
     val w = Weather(10f, "Paris")
     val w1 = object : Weather(10f, "Paris") {
 
@@ -8,7 +23,7 @@ fun main() {
 
     object : Listener {
         override fun onClicked() {
-            TODO("Not yet implemented")
+           TODO("Not yet implemented")
         }
 
     }
@@ -60,7 +75,7 @@ object AppStateLoading
 data class AppStateSuccess(val value: String) : AppState
 data class AppStateError(val value: String) : AppState
 
-
+ */
 
 
 
